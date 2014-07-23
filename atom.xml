@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Uncle Jelly's Cabin]]></title>
   <link href="http://guodongxiaren.github.io/atom.xml" rel="self"/>
   <link href="http://guodongxiaren.github.io/"/>
-  <updated>2014-07-23T12:50:03+08:00</updated>
+  <updated>2014-07-23T13:37:37+08:00</updated>
   <id>http://guodongxiaren.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Jelly叔叔]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
