@@ -122,14 +122,14 @@ a.boxclose{
 .banner-info h1{
 	font-family: 'Cookie', cursive;
 	color: #FFF;
-	font-size: 4em;
+	font-size: 2em;
 	margin:0;
 	padding:0;
 }
 .banner-info p{
 	color:#fff;
 	margin: 0em 0 1em 0;
-	font-size: 1.6em;
+	font-size: 1.5em;
 	font-weight: 100;
 }
 .banner-info ul{
@@ -176,6 +176,9 @@ a.boxclose{
 .banner-info img{
 	margin-bottom:0.7em;
 	display:inline-block;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
 }
 .img-circle {
 	border-radius: 200px !important;
@@ -234,15 +237,6 @@ a.boxclose{
 	margin-top:4em;
 }
 /*-- services --*/
-.services{
-	background: url(../images/services-bg.jpg) no-repeat 0px 0px;
-	min-height: 672px;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	padding: 4em 0 5em;
-}
 .service-head h2{
 	color:#FFF;
 }
