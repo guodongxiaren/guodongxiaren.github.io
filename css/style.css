@@ -86,7 +86,7 @@ a.boxclose{
 	color: #FFF;
 	font-size: 0.875em;
 	margin: 0.44em 2em;
-	font-weight: 900;
+	/*font-weight: 900;*/
 	text-transform: uppercase;
 	text-align: left;
 	-webkit-transition: all 0.5s ease-in-out;
