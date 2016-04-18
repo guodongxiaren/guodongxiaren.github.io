@@ -1280,3 +1280,31 @@ h5.post-author_head {
 	min-height: 200px;
 }
 }
+
+/*-- feedback --*/
+.feedback{
+	background: url(../images/feedback-bg.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	min-height: 300px;
+	padding: 6em 0 0 0;
+}
+.feedback-grid p{
+	color: #FFf;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	width: 90%;
+	margin: 0 auto;
+}
+.feedback-grid h4{
+	color:#2ec06c;
+	font-weight:700;
+	font-family: 'Asap', sans-serif;
+	font-size:1.3em;
+	margin:1em 0 0 0;
+}
+.feedback-grid h4 span{
+	color:#FFF;
+	font-weight:400;
+	font-size:0.7em;
+	font-style:italic;
+}

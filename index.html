@@ -10,8 +10,10 @@
 	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="js/jquery.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
 	<!-- Custom Theme files -->
 	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<link href="css/owl.carousel.css" rel='stylesheet' type='text/css' />
 	<!-- Custom Theme files -->
 	<!-- start-smoth-scrolling-->
 	<script type="text/javascript" src="js/move-top.js"></script>
@@ -118,8 +120,8 @@
 					<div class="col-md-6 about-left-grid">
 						<h3>果冻虾仁</h3>
 						<span>C++码农，业余段子手，伪文艺青年 </span>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla fam.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet purus ipsum. In ante leo, elementum at placerat in, aliquet non lectus. Nam imperdiet magna eu faucibus cursus.</p>
+						<p>。</p>
+						<p>。</p>
 					</div>
 					<div class="col-md-6 about-right-grid">
 						<a class="popup-with-zoom-anim" href="#small-dialog"><img src="images/video.jpg" title="name" /></a>
@@ -260,47 +262,44 @@
 										</div>
 										<!-- /portfolio -->
 
-										<!-- projects -->
-										<div class="projects">
+										
+										<div class="feedback">
 											<div class="container">
-												<div class="project-grids">
-													<div class="cycle">
-														<span> </span>
-													</div>
-													<div class="project-grid total-project">
-														<p>79</p>
-														<p>Projects</p>
-														<span> <i class="p-icon"> </i></span>
-													</div>
-													<div class="project-grid clientsgrid">
-														<div>
-															<p>25</p>
-															<p>Clients</p>
+												<div id="owl-demo3" class="owl-carousel owl-carousel1">
+													<div class="item">
+														<div class="feedback-grid text-center">
+															<p>"Talk is cheap, show me the code."</p>
+															<h4>Linus Torvalds</h4>
 														</div>
-														<span> <i class="p-icon"> </i></span>
 													</div>
-													<div class="project-grid people-grid">
-														<div>
-															<p>100%</p>
-															<p>Satisfaction</p>
+													<div class="item">
+														<div class="feedback-grid text-center">
+															<p>“一朝春尽红颜老，花落人亡两不知”</p>
+															<h4>葬花吟</h4>
 														</div>
-														<span> <i class="p-icon"> </i></span>
 													</div>
-													<div class="clearfix"> </div>
+													<div class="item">
+														<div class="feedback-grid text-center">
+															<p>“汝若欲学诗，功夫在诗外”</p>
+															<p></p>
+															<h4>陆游<span> </span></h4>
+														</div>
+													</div>
 												</div>
 											</div>
+											<!-- Feedback -->
 										</div>
-										<!-- projects -->
+
 										<!-- catch-on -->
 										<div id="contact" class="catch-on text-center">
-											<p>Want To Discuss Any Creative Projct ? <a class="catch" href="contact.html">Contact Me</a></p>
+											<p>和我联系 <a class="catch" href="mailto:guodongxiaren@163.com">Mail to Me</a></p>
 										</div>
 										<!-- /catch-on -->
 										<!-- footer -->
 										<div class="container">
 											<div class="footer">
 												<div class="footer-left">
-													<p>我还是个单身狗 <a href="#" target="_blank">=_=|||</a></p>
+													<p>Copyrights © 2016 我还是个单身狗. All Rights Reserved. <a href="#" target="_blank">=_=|||</a></p>
 												</div>
 												<div class="footer-right">
 													<ul>
@@ -331,6 +330,18 @@
 								</div>
 								<!-- /footer -->
 								<!-- /container -->
+								<script type="text/javascript">
+									$(document).ready(function() {
+										$("#owl-demo3").owlCarousel({
+											items : 1,
+											lazyLoad : false,
+											autoPlay : true,
+											navigation : false,
+											navigationText :  true,
+											pagination :true,
+										});
+									});
+								</script>
 							</body>
 							</html>
 
