@@ -38,7 +38,7 @@ body a{
 }
 /*--*/
 .nav-icon {
-	float: right;
+	/*float: right;*/
 }
 .nav-icon a span {
 	width: 52px;
@@ -891,6 +891,8 @@ a.boxclose {
 }
 .banner-info img {
 	width: 30%;
+	height: 30%;
+	border-radius: 60%;
 }
 .menu_box_list {
 	padding: 4em 0;
@@ -986,7 +988,8 @@ p.more-articals {
 	min-height:520px;
 }
 .banner-info h1 {
-	font-size: 3em;
+	/*font-size: 3em;*/
+	/*display: inline;   */
 }
 .banner-info p {
 	font-size: 1.2em;
@@ -1061,6 +1064,12 @@ a.boxclose {
 }
 }
 @media(max-width:480px){
+/*.banner-info h1 {
+	 // 受右上角的span影响，此处不inline，则头像左偏很不好看
+	display: inline; 
+	margin-left: 1em;
+}*/
+
 .menu_box_list ul li {
 	display: block;
 }
